@@ -21,7 +21,8 @@ function Navbar() {
   return (
     <>
       <ButtonWrapper>
-        <Button onClick={() => navigate("/")}>Home</Button>
+        <Button onClick={() => navigate("/")}>기본</Button>
+        <Button onClick={() => navigate("/home")}>Home</Button>
         <Button onClick={() => navigate("/select")}>Select</Button>
       </ButtonWrapper>
     </>
